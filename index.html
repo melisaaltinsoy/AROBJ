@@ -1,23 +1,14 @@
 <!doctype HTML>
 <html>
-<head>
-<script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
- <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
-</head>
-	
-<body>
-    <a-scene embedded arjs='trackingMethod: best; sourceType: webcam; debugUIEnabled: false;' hidden>
-    <a-assets>
-      
-      <a-asset-item id="airplane_asset_obj" src="https://raw.githubusercontent.com/prashant-andani/AR-Alphabets-words/master/assets/airplane/FREOBJ.obj"></a-asset-item>
-  
-    </a-assets>
+<script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.5/aframe/build/aframe-ar.js"> </script>
+<body style='margin : 0px; overflow: hidden;'>
+    <a-scene embedded arjs='trackingMethod: best;'>
+   <a-entity gltf-model="url(https://rawgit.com/KhronosGroup/glTF-Sample-Models/master/2.0/DamagedHelmet/glTF/DamagedHelmet.gltf)" animation-mixer>
+   </a-entity>
 
-    <a-marker preset="hiro">
-    </a-marker>
-
-    <a-entity camera></a-entity>
-
-  </a-scene>
+      <a-marker-camera preset='hiro'></a-marker-camera>
+      <a-camera-static/>
+    </a-scene>
 </body>
 </html>
