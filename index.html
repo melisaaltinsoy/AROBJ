@@ -6,11 +6,17 @@
 </head>
 	
 <body>
-  <a-scene embedded arjs>
-   <a-entity scale=".2 .2 .2">
-      <a-entity obj-model="organism_3.obj" scale="-1 1 1">
-    </a-entity>
-    <a-marker-camera preset='hiro'></a-marker-camera>
+    <a-scene embedded arjs='trackingMethod: best; sourceType: webcam; debugUIEnabled: false;' hidden>
+    <a-assets>
+      <a-asset-item id="airplane_asset_mtl" src="https://raw.githubusercontent.com/prashant-andani/AR-Alphabets-words/master/assets/airplane/FREOBJ.mtl"></a-asset-item>
+      <a-asset-item id="airplane_asset_obj" src="https://raw.githubusercontent.com/prashant-andani/AR-Alphabets-words/master/assets/airplane/FREOBJ.obj"></a-asset-item>
+  
+    </a-assets>
+
+    <a-marker preset="hiro">
+    </a-marker>
+
+    <a-entity camera></a-entity>
 
   </a-scene>
 </body>
