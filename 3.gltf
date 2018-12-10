@@ -1,0 +1,174 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 270996,
+            "max" : [
+                45838
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 45839,
+            "max" : [
+                580.2939453125,
+                557.4788818359375,
+                538.396484375
+            ],
+            "min" : [
+                -584.06982421875,
+                -551.239501953125,
+                -510.5439453125
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 45839,
+            "max" : [
+                0.99993896484375,
+                0.999969482421875,
+                0.9998779296875
+            ],
+            "min" : [
+                -0.99993896484375,
+                -0.999969482421875,
+                -0.99993896484375
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 45839,
+            "max" : [
+                0.9999940991401672,
+                0.9942614436149597,
+                0.9999999403953552,
+                1.0
+            ],
+            "min" : [
+                -1.0,
+                -0.9961994886398315,
+                -0.999997079372406,
+                -1.0
+            ],
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 45839,
+            "max" : [
+                1.0,
+                1.0
+            ],
+            "min" : [
+                0.0,
+                0.0
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 541992,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 550068,
+            "byteOffset" : 541992,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 550068,
+            "byteOffset" : 1092060,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 733424,
+            "byteOffset" : 1642128,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 366712,
+            "byteOffset" : 2375552,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 2742264,
+            "uri" : "3.bin"
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "object_1",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TANGENT" : 3,
+                        "TEXCOORD_0" : 4
+                    },
+                    "indices" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.483536034822464,
+                0.33687159419059753,
+                -0.20870360732078552,
+                0.7804827094078064
+            ],
+            "translation" : [
+                7.481131553649902,
+                5.34366512298584,
+                6.5076398849487305
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "object_1",
+            "rotation" : [
+                0.7071068286895752,
+                0.0,
+                -0.0,
+                0.7071067094802856
+            ]
+        }
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                1,
+                0
+            ]
+        }
+    ]
+}
