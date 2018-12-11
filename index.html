@@ -3,12 +3,20 @@
 <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
 <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.5/aframe/build/aframe-ar.js"> </script>
 <body style='margin : 0px; overflow: hidden;'>
-    <a-scene embedded arjs='trackingMethod: best;'>
-   <a-entity gltf-model="url(1small.gltf)" animation-mixer>
-   </a-entity>
-
+    <a-scene embedded arjs='trackingMethod: best; debugUIEnabled: false;' crossorigin="anonymous">
+        <a-entity
+            obj-model="obj: url(./organism_3.obj);">
+        </a-entity>
+<div style='position: fixed; top: 10px; width:100%; text-align: center; z-index: 1;'>    
+      
+<input type="button" value="Button Text" id="theButton"></input> 
+</div>
+      <script src="button.js"> </script>
       <a-marker-camera preset='hiro'></a-marker-camera>
-      <a-camera-static/>
+       <a-camera-static/>
     </a-scene>
+
+    
 </body>
 </html>
+
